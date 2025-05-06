@@ -5,12 +5,23 @@
 		float: right;		
 		}
 		
-img {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 20px;
+}
+
+.grid-galeria figure {
+	margin: 0;
+	text-align: center;
+}
+
+.grid-galeria img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto 10px;
+	border-radius: 0;
 }
 
 figure {
