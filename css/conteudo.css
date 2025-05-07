@@ -5,24 +5,7 @@
 		float: right;		
 		}
 		
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 20px;
-	padding: 20px;
-}
 
-.grid-galeria figure {
-	margin: 0;
-	text-align: center;
-}
-
-.grid-galeria img {
-	width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto 10px;
-	border-radius: 0;
-}
 
 figure {
     display: inline-block;
@@ -45,7 +28,25 @@ h1{
 	text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    justify-content: center; 
+}
 
-
-
-
+.grid-item {
+    text-align: center;
+}
+.imagem1{
+	width: 400px;	
+}
+.imagem2{
+	width: 400px;	
+}
+.imagem3{
+	width: 350px;	
+}
+.imagem4{
+	width: 350px;	
+}
